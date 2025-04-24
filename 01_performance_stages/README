@@ -1,0 +1,17 @@
+# 01_performance_stages
+
+Shows the performance stages of AMX, the observation off of which gatebleed is built
+
+# Steps
+- `make`
+- `python3 ./get_rdtscp_data.py`
+- `python3 ./plot.py <csv file that was generated in the previous step>`
+
+The generated plot.png should look like the file plot_original.png
+
+# Troubleshooting
+This code is confirmed to work on RHEL 9.4 and Ubuntu 22.04 on a Sapphire Rapids CPU
+We observed RHEL 9.5 has the highest latency  performance stages disappear but 3 distinct stages should still be visible
+This code requires an Intel CPU with Intel AMX.
+
+
