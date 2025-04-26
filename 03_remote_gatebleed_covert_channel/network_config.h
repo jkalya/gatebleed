@@ -1,0 +1,10 @@
+#ifndef NETWORK_CONFIG_H
+#define NETWORK_CONFIG_H
+
+#define RESET_PORT 42424
+#define LEAK_PORT 42425
+#define RECOVER_PORT 42426
+
+#define BUFFER_SIZE 10
+#define PAGE_SIZE 4096
+#endif

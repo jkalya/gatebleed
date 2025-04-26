@@ -1,4 +1,4 @@
-# 01_performance_stages
+# performance_stages
 
 Shows the performance stages of AMX, the observation off of which gatebleed is built
 

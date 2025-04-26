@@ -9,7 +9,7 @@ if len(sys.argv) < 2:
 csv_file = sys.argv[1]
 df = pd.read_csv(csv_file)
 
-plt.plot(df.iloc[:, 1], df.iloc[:, 2], marker='o')
+plt.plot(df.iloc[:, 1], df.iloc[:, 2])
 plt.xscale('log')
 plt.grid(True)
 
