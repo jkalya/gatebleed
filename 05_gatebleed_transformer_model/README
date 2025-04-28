@@ -1,0 +1,16 @@
+# Transformer Inference Execution Time
+
+This repository contains code to measure the execution time of transformer inference when AMX is either in a warm or cold stage.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have `make` and `sudo` privileges.
+
+### Building the Project
+
+1. **Compile the Project**
+
+   ```bash
+   make all
