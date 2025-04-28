@@ -2,15 +2,11 @@
 
 This repository contains code to measure the execution time of transformer inference when AMX is either in a warm or cold stage.
 
-## Getting Started
+Steps:
 
-### Prerequisites
-
-Ensure you have `make` and `sudo` privileges.
-
-### Building the Project
-
-1. **Compile the Project**
-
-   ```bash
-   make all
+- make all
+- cd build
+- sudo ./transformer_app
+- Answer this question with cold or warm "Enter 'cold' or 'warm': "
+- Answer this question with Y "Do you want to start mini prompt mode? (Y/N): "
+- Collect the timing measurements from the first column of readings.txt
