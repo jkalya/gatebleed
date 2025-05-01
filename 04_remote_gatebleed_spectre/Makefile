@@ -1,8 +1,6 @@
-WARMUP_AMX=1
+all: server client busyloop
 
-all: server client
-
-.PHONY: server client
+.PHONY: server client busyloop
 
 server:
 	gcc -O0 -march=native -DWARMUP_AMX=$(WARMUP_AMX) server.c -o server
@@ -12,3 +10,5 @@ server_asm:
 
 client:
 	gcc -O0 -march=native client.c -o client
+busyloop:
+	gcc -O0 busyloop.c -o busyloop

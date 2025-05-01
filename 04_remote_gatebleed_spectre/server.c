@@ -198,12 +198,12 @@ void* cache_recover_command() {
 
 		// Access variable
 		//TIMER_INIT();
-		//_mm_mfence();
+		_mm_mfence();
 		//TIMER_START();
 		//memcpy(buffer, &important_cache_line, 8);
 		_tile_dpbssd(1, 2, 3);
 		//junk5 = important_cache_line;
-		//TIMER_END();
+	//	TIMER_END();
 		//_mm_mfence();
 
 		//printf("%"PRIu64"\n", TIMER_VALUE());
