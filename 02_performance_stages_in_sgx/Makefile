@@ -61,3 +61,8 @@ enclave.signed.so: enclave.so private-key.pem enclave.config.xml
 .PHONY: clean
 clean:
 	rm -f main enclave.so enclave.signed.so main.o enclave_?.? enclave.o client
+
+run:
+	./sweep_waits.bash > data.csv
+	python3 plot.py
+	echo "" # xdg-open plot.png

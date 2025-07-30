@@ -1,0 +1,85 @@
+Enter a string (or type 'exit' to quit): Technological advancements are often driven by scientific discoveries.
+Token IDs: 2167 2501 5775 1594 3443 5181 3866 3456 
+
+Category probabilities (sorted highest to lowest):
+Politics : 0.50818
+Economics : 0.187561
+Health : 0.0944597
+History : 0.0484775
+Scientific : 0.0411256
+Sports : 0.0357146
+Culture : 0.0292563
+Fashion : 0.0285134
+Nature : 0.0177846
+Industries : 0.00892747
+
+Predicted category: Politics
+
+Enter a string (or type 'exit' to quit): Space exploration pushes the boundaries of scientific knowledge and innovation.
+Token IDs: 5106 3994 3821 3335 4234 4999 3866 4050 2593 2646 
+
+Category probabilities (sorted highest to lowest):
+History : 0.403064
+Politics : 0.206012
+Economics : 0.11993
+Scientific : 0.0921339
+Health : 0.0786465
+Industries : 0.0324391
+Nature : 0.0272467
+Culture : 0.0201766
+Sports : 0.0158779
+Fashion : 0.00447234
+
+Predicted category: History
+
+Enter a string (or type 'exit' to quit): The study of Earth's radiation belts enhances understanding of space weather.
+Token IDs: 3335 3339 4999 1 6215 4271 1068 1174 4999 5106 5805 
+
+Category probabilities (sorted highest to lowest):
+Scientific : 0.954297
+Nature : 0.0336347
+Health : 0.00408452
+Politics : 0.00206385
+Fashion : 0.00188333
+Sports : 0.00168938
+History : 0.0010063
+Industries : 0.000678551
+Economics : 0.000482984
+Culture : 0.000179316
+
+Predicted category: Scientific
+
+Enter a string (or type 'exit' to quit): Engineers are designing robots for underwater exploration of submerged archaeological sites.
+Token IDs: 4264 5775 5719 1203 5310 1662 3994 4999 5030 2310 385 
+
+Category probabilities (sorted highest to lowest):
+Scientific : 0.968753
+Nature : 0.0133807
+Politics : 0.00452371
+Health : 0.00358888
+Fashion : 0.00263367
+Economics : 0.0023416
+Industries : 0.00147238
+History : 0.00137084
+Sports : 0.00111253
+Culture : 0.000822628
+
+Predicted category: Scientific
+
+Enter a string (or type 'exit' to quit): Scientists are investigating how symbiotic bacteria influence insect resistance to pathogens.
+Token IDs: 3444 5775 5648 1878 5447 2706 3341 5294 4897 2899 5189 
+
+Category probabilities (sorted highest to lowest):
+Scientific : 0.987797
+Nature : 0.00367848
+Health : 0.00269613
+Fashion : 0.00180321
+Industries : 0.00173211
+Sports : 0.000842154
+Politics : 0.000600783
+Economics : 0.000451831
+History : 0.000381127
+Culture : 1.71266e-05
+
+Predicted category: Scientific
+

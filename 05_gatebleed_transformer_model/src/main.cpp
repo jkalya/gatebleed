@@ -356,8 +356,8 @@ void print_out_probabilities(std::vector<float> probabilities, std::vector<int> 
 
 // Function to read an MSR register using the file interface
 uint64_t read_msr(int fd, uint32_t reg) {
-    uint64_t value;
-    pread(fd, &value, sizeof(value), reg);
+    uint64_t value = 0;
+    // pread(fd, &value, sizeof(value), reg);
     return value;
 }
 
@@ -389,10 +389,10 @@ void run_prompt_mode(Transformer& transformer, int max_len, const unordered_map<
     unsigned long long start_cycles, end_cycles, elapsed_cycles;
     // Open MSR device file
     fd = open("/dev/cpu/28/msr", O_RDONLY);
-    if (fd < 0) {
-        printf("Failed to open /dev/cpu/28/msr\n");
-        return;
-    }
+    //if (fd < 0) {
+	//printf("Failed to open /dev/cpu/28/msr\n");
+	//return;
+	//}
     // Read the MSR_RAPL_POWER_UNIT register once to get units
     msr_value = read_msr(fd, MSR_RAPL_POWER_UNIT);
     // Extract energy status unit bits (bits 12:8)
@@ -1129,12 +1129,13 @@ int main() {
     std::cout << " ** max_len: " << max_len << std::endl;   
     std::cout << " ** num_layers: " << num_layers << std::endl;  
 
-    cout << "Do you want to start mini prompt mode? (Y/N): ";
-    string response;
-    cin >> response;
-    cin.ignore(); // Ignore trailing newline character from cin
+    //cout << "Do you want to start mini prompt mode? (Y/N): ";
+    //string response;
+    //cin >> response;
+    //cin.ignore(); // Ignore trailing newline character from cin
 
-    if (response == "Y" || response == "y" || response == "Yes" || response == "yes" || response == "YES") {
+    // if (response == "Y" || response == "y" || response == "Yes" || response == "yes" || response == "YES") {
+	if (1) {
         run_prompt_mode(transformer, max_len, vocab, final_weights, final_bias, Iscold);
     } else {
         cout << "Continuing with training loop...\n";

@@ -13,11 +13,18 @@
 #include "../amx.h"
 #include <poll.h>
 
-#define SERVER_ADDRESS "127.0.0.1" // CHANGE THIS
+// #define SERVER_ADDRESS "127.0.0.1" // CHANGE THIS
 #define NUM_TRIALS 10000
 
 int main(int argc, char* argv[]) {
+	if (argc != 2) {
+		perror("Syntax: ./client IP_ADDRESS");
+	}
+
+	char SERVER_ADDRESS[100];
+	strncpy(SERVER_ADDRESS, argv[1], 16);
 	
+
 	int reset_fd, recover_fd, leak_fd;
 	struct sockaddr_in reset_socket, recover_socket, leak_socket;
 	int reset_socklen, recover_socklen, leak_socklen;

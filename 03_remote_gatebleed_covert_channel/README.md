@@ -3,7 +3,6 @@ Shows how the gatebleed covert channel is easily visible over the network.
 
 ## Building
 ### Client
-- Modify client.c to change the `SERVER_ADDRESS` macro to the ip address of the remote server that `./server` will be running on. By default, it is set to 127.0.0.1 or localhost, so the server and client are running on the same server
 - Modify networking_config.h to change the ports if necessary
 - `make client`
 
@@ -13,8 +12,8 @@ Shows how the gatebleed covert channel is easily visible over the network.
 
 ## Running
 - On the server side, pin the task to a particular core, e.g. with `taskset -c 0 ./server`
-- On the client side, run `./client > data.csv`
-- To generate the plot, run `python plot.py`
+- On the client side, run `./client IP_ADDRESS > data.csv`, e.g. IP_ADDRESS can be 127.0.0.1 if testing localhost
+- To generate the plot, run `python3 plot.py`
 - The plot is saved as plot.png
 
 ## Troubleshooting

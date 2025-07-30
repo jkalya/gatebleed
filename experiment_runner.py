@@ -12,10 +12,13 @@ def experiment_runner(exe: str, nwarmups: int, ntrials: int, sleep_after_trial: 
     for i in tqdm(range(0, nwarmups)):
         subprocess.run(exe.split(), capture_output=True)
         time.sleep(sleep_after_trial);
+    
 
-    now = datetime.now()
-    nowstr = now.strftime("%Y%m%d%H:%M:%S")
-    filename = nowstr + "_" + suffix + ".csv"
+        #    now = datetime.now()
+        #    nowstr = now.strftime("%Y%m%d%H:%M:%S")
+        #    filename = nowstr + "_" + suffix + ".csv"
+        filename = suffix + ".csv"
+
         
     with open(filename, "a") as f:            
         for i in tqdm(range(0, ntrials)):
@@ -70,9 +73,10 @@ def experiment_runner_3(exe: str, nwarmups: int, ntrials: int, sleep_after_trial
 # First, capture the new filename by calling experiment_runner_new_file: this creates a new empty file
 # Then, repeatedly call experiment_runner_sweep with the desired label and filename
 def experiment_runner_new_file(suffix: str):
-    now = datetime.now()
-    nowstr = now.strftime("%Y%m%d%H:%M:%S")
-    filename = nowstr + "_" + suffix + ".csv"
+    # now = datetime.now()
+    # nowstr = now.strftime("%Y%m%d%H:%M:%S")
+    # filename = nowstr + "_" + suffix + ".csv"
+    filename = suffix + ".csv"
     with open(filename, 'w') as file:
         pass
 

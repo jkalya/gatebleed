@@ -13,5 +13,5 @@ waits += list(range(200000, 60000000, 200000))
 
 # Grand total: 425 things
 
-f = experiment_runner_new_file("minpow_nowarmup_rdtsc")
+f = experiment_runner_new_file("data_rdtsc")
 experiment_runner_usersweep0("taskset -c 0 ./busyloop 1 ", waits, 100, 1, 0.001, f)

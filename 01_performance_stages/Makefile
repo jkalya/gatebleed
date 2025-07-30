@@ -12,7 +12,7 @@ OBJ = $(SRC:.c=.o)
 EXEC = $(SRC:.c=)
 
 # Default target: compile all source files into their corresponding executables
-all: $(EXEC)
+all: $(EXEC) 
 
 # Rule to compile each .c file into its corresponding .o file
 %.o: %.c
@@ -21,5 +21,10 @@ all: $(EXEC)
 # Rule to link each .o file into its corresponding executable
 %: %.o
 	$(CC) $(CFLAGS) $< -o $@
+
+run: $(EXEC)
+	python3 get_rdtscp_data.py
+	python3 plot.py data_rdtsc.csv
+	echo "" # xdg-open plot.png
 
 # Clean up objec
