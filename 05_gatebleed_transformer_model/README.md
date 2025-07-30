@@ -8,5 +8,4 @@ Steps:
 - cd build
 - sudo ./transformer_app
 - Answer this question with cold or warm "Enter 'cold' or 'warm': "
-- Answer this question with Y "Do you want to start mini prompt mode? (Y/N): "
 - Collect the timing measurements from the first column of readings.txt
