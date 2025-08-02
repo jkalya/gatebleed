@@ -2,6 +2,8 @@
 
 Simple modular implementation of a neural network in C++ using only the STL, with support for convolutional layers, ReLU, MaxPooling, early exit, and AMX profiling.
 
+Info to remember - Entropy threshold is set to 2.15266
+
 ---
 
 ### 1.  Configure and Build
@@ -52,7 +54,7 @@ sudo taskset -c 28 ./build/neural_net_in_cpp data train3 1 0.01 5000 train_3_mem
 - `data_path`: Path to MNIST dataset
 - `loader_type`: `test`, `train`, etc.
 - `membership_label`: `0` = non-member, `1` = member
-- `threshold`: Entropy threshold (e.g., 0.01)
+- `threshold`: Confidence threshold (e.g., 0.01)
 - `extra_ops`: Dummy operations for timing balance
 - `output_file`: File where AMX timing and entropy logs are saved
 
