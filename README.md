@@ -20,6 +20,9 @@ Shows how execution time of a transformer model is severely affected by whether 
 ## 06_gatebleed_ee_transformer_mia
 Shows a membership inference attack on a simplified entropy-based early exiting transformer model by showing how the attacker can measure its own AMX instruction execution time to determine if AMX was used in the previous time slice when the attacker can colocate its program on the same core as the victim running a machine learning inference. The number of attacker-observed fast AMX instructions will differ based on if the victim early-exited or not, and its known that for overfitted models, intermediate entropy is different on training members vs nonmembers thus an early-exiting decision based on entropy can leak to the attacker. The attacker is allowed to query the model, so the attacker can continually present inputs to the network in order to deduce what texts it was trained on. 
 
+## 07_gatebleed_cnn_mia
+Shows the member ship inference attack on simplified CNN model, here the attacker can measure the time taken by the member and non-members to get executed. If we are trying to infer a member, the entropy value might be low, which can cause the us the model to take early exit route. In order to compensate for the reduced time taken by the early exit, we add some extra computations so it seems like model has not taken the early exit route. But we can leak the member by measuring the AMX instruction after the inference of one image. AMX instruction after Member image will take more time to execute, because we extra computations are non-AMX operations, which cause AMX unit to powergate, whereas Non-Members will keep AMX unit in hot stage thus taking less time to execute the next AMX operation. 
+
 # Troubleshooting
 More specific troubleshooting is provided in the individual artifacts, but here are some overall tips
 

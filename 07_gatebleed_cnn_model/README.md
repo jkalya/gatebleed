@@ -70,9 +70,3 @@ sudo taskset -c 28 ./build/neural_net_in_cpp data train3 1 0.01 5000 train_3_mem
 - [x] Learning Rate Scheduler  
 - [x] Early Exit  
 - [x] AMX Instruction Profiling  
-
----
-
-## 📄 License
-
-MIT
