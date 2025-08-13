@@ -9,8 +9,8 @@ subprocess.run(["make"], check=True)
 
 # === Step 2: Run inference and generate labeled output files ===
 commands = [
-    ["sudo", "taskset", "-c", "28", "./build/neural_net_in_cpp", "data", "test", "0", "0.01", "5000", "test_non-member.txt"],
-    ["sudo", "taskset", "-c", "28", "./build/neural_net_in_cpp", "data", "train", "1", "0.01", "5000", "train_member.txt"]
+    ["taskset", "-c", "28", "./build/neural_net_in_cpp", "data", "test", "0", "0.01", "5000", "test_non-member.txt"],
+    ["taskset", "-c", "28", "./build/neural_net_in_cpp", "data", "train", "1", "0.01", "5000", "train_member.txt"]
 ]
 
 output_files = ["test_non-member.txt", "train_member.txt"]

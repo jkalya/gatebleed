@@ -39,10 +39,10 @@ This will:
 
 ```bash
 # For non-members
-sudo taskset -c 28 ./build/neural_net_in_cpp data test1 0 0.01 5000 test_1_non-member.txt > entropy_non-member_1.txt
+taskset -c 28 ./build/neural_net_in_cpp data test1 0 0.01 5000 test_1_non-member.txt > entropy_non-member_1.txt
 
 # For members
-sudo taskset -c 28 ./build/neural_net_in_cpp data train3 1 0.01 5000 train_3_member.txt > entropy_member_3.txt
+taskset -c 28 ./build/neural_net_in_cpp data train3 1 0.01 5000 train_3_member.txt > entropy_member_3.txt
 ```
 
 ### Command Format
