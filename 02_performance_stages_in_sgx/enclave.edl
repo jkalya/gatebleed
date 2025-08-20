@@ -1,5 +1,0 @@
-enclave {
-    trusted {
-			public uint64_t gadget(uint64_t received_val_for_train);
-    };
-};

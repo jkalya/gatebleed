@@ -5,9 +5,6 @@ This artifact was tested on a Lenovo SRV-650 V3 with dual-socket Intel Xeon Gold
 ## 01_performance_stages
 Shows the different AMX instruction latencies depending on time AMX was last utilized.
 
-## 02_performance_stages_in_sgx
-Shows that these performance stages happen in Intel SGX (a trusted execution environment), showing that attacks that build off the performance stages also work when the application is enclosed in an SGX enclave.
-
 ## 03_remote_gatebleed_covert_channel
 Shows a remote covert channel with cooperating sender and receiver.
 
@@ -18,7 +15,7 @@ Shows a PoC remote spectre attack using the gatebleed covert channel.
 Shows how execution time of a transformer model is severely affected by whether AMX was warmed up or not. The transformer model takes in a token sequence as input and outputs whether or not the input sequence was a question or answer. 
 
 ## 06_gatebleed_ee_transformer_mia
-Shows a membership inference attack on a simplified entropy-based early exiting transformer model by showing how the attacker can measure its own AMX instruction execution time to determine if AMX was used in the previous time slice when the attacker can colocate its program on the same core as the victim running a machine learning inference. The number of attacker-observed fast AMX instructions will differ based on if the victim early-exited or not, and its known that for overfitted models, intermediate entropy is different on training members vs nonmembers thus an early-exiting decision based on entropy can leak to the attacker. The attacker is allowed to query the model, so the attacker can continually present inputs to the network in order to deduce what texts it was trained on. 
+Shows a membership inference attack on a simplified entropy-based mixture-of-experts transformer model by showing how the attacker can measure its own AMX instruction execution time to determine if AMX was used in the previous time slice when the attacker can colocate its program on the same core as the victim running a machine learning inference. The number of attacker-observed fast AMX instructions will differ based on if the victim used a lower-capacity expert or not, and it is known that for overfitted models, intermediate entropy is different on training members vs nonmembers thus an expert decision based on entropy can leak to the attacker. The attacker is allowed to query the model, so the attacker can continually present inputs to the network in order to deduce what texts it was trained on. 
 
 ## 07_gatebleed_cnn_mia
 Shows the member ship inference attack on simplified CNN model, here the attacker can measure the time taken by the member and non-members to get executed. If we are trying to infer a member, the entropy value might be low, which can cause the us the model to take early exit route. In order to compensate for the reduced time taken by the early exit, we add some extra computations so it seems like model has not taken the early exit route. But we can leak the member by measuring the AMX instruction after the inference of one image. AMX instruction after Member image will take more time to execute, because we extra computations are non-AMX operations, which cause AMX unit to powergate, whereas Non-Members will keep AMX unit in hot stage thus taking less time to execute the next AMX operation. 
