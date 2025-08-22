@@ -1,0 +1,1 @@
+g++ vocab_extractor.cpp -o vocab_extractor

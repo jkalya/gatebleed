@@ -1,0 +1,392 @@
+What time is it now?
+How are you doing today?
+Can you help me with this task?
+Where is the nearest bus stop?
+Why is the sky blue?
+Who wrote this article?
+Which movie do you recommend?
+When will the meeting start?
+Is it going to rain tomorrow?
+Could you explain that again?
+What is the capital of France?
+How can I improve my coding skills?
+Can you show me an example of that function?
+Where can I find more resources?
+Why does the sun rise in the east?
+I ask what fruit you want?
+Which programming language should I learn first?
+When does the store open?
+Is it safe to travel abroad now?
+Could you please rephrase the question?
+What is your opinion on the current situation?
+How do I prepare for a job interview?
+Can you confirm the details of the reservation?
+Where is the best place to eat around here?
+Why do we need to use pointers in C?
+Who can help me with this project?
+Which library do I need to install?
+When is the next bus arriving?
+Is Python better than Java?
+Could you simplify that equation?
+What is the meaning of life?
+How often do you exercise?
+Can you assist me with my homework?
+Where should I park my car?
+Why are there so many stars in the sky?
+Who won the World Cup last year?
+Which podcast do you recommend for tech news?
+When is the deadline for the submission?
+Is this the correct way to perform the task?
+Could you please speak more slowly?
+What is the tallest building in the world?
+How do I reset my password?
+Can you explain the concept of inheritance in OOP?
+Where should we hold the conference?
+Now my question, is this realy true?
+Who can authorize this purchase?
+Which framework do you find easiest to use?
+When are you planning to take a vacation?
+Is that a valid argument?
+Could you detail the steps to reproduce the bug?
+What is the maximum speed limit on this road?
+How do I create a new Git branch?
+Can you proofread this document for me?
+Where did you learn about machine learning?
+Why is my code throwing a segmentation fault?
+Who can approve my leave request?
+Which website do you use for flight bookings?
+When will the renovations be finished?
+Is classical music beneficial for concentration?
+Could you change the font size, please?
+What is the best approach to solve this problem?
+How did you get started in programming?
+Can you translate this sentence for me?
+Where do I submit my expense report?
+And why does my phone battery drain so quickly?
+Who is the main contact person for support?
+Which solution do you think is more efficient?
+When should we schedule the next meeting?
+Is coffee or tea better for productivity?
+Could you share the presentation slides?
+What is the largest mammal on Earth?
+How do I optimize this SQL query?
+Hello can you help me fix these compile errors?
+Where can I recycle these items?
+Why do magnets have poles?
+Who is your favorite historical figure?
+Mr Smith which brand of laptop would you recommend?
+My frend when is the best time to visit Japan?
+Is it permissible to bring outside food?
+Could you illustrate the concept with an example?
+What is your strategy for investing?
+How do I change the system settings?
+Can you forward me the email chain?
+Where do they host the annual conference?
+Why is that method deprecated?
+Who is responsible for signing the contract?
+Which phone model has the best camera?
+When did the museum first open?
+Is all the data backed up properly?
+Could you clarify your last statement?
+What is the best path to advance my career?
+How does one become a better public speaker?
+Can you verify the total cost?
+Where can I learn more about quantum computing?
+Why are certain features disabled by default?
+Do you know who is going to cover the travel expenses?
+Which test cases have we not covered yet?
+When is the project expected to launch?
+Is knowledge of algorithms essential for this role?
+Could you check the logs for errors?
+What is your favorite programming language?
+How do I install this application on Linux?
+Can you finalize the report by tomorrow?
+Where did you see the missing files last?
+Why do some people prefer remote work?
+Who can mentor new team members?
+Which color scheme do you like best?
+When will you release the next version?
+Is this a bug or intended behavior?
+Could you guide me through the configuration?
+What is the difference between TCP and UDP?
+Do they know how do I add a new user to the system?
+Can you describe your workflow for code reviews?
+Where do I find the official documentation?
+Why is the package delayed in transit?
+Who is authorized to access the server room?
+Which repository contains the latest source code?
+Can thay update the scheduled?
+Is there a discount available for students?
+Could you summarize the main points?
+What is the recommended daily water intake?
+How do I convert this file to PDF?
+Can you create a backup of the database?
+Where can I see the system logs?
+Why do some species migrate long distances?
+Who was the first person to climb Mount Everest?
+Which antivirus software do you prefer?
+When do we expect to hear back from the client?
+Is there a recommended workflow for merging branches?
+Could you demonstrate how to use this tool?
+What is the largest planet in our solar system?
+How do I compress a folder into a zip file?
+Can you schedule a follow-up call for next week?
+Where is the best spot to watch the sunset?
+Why does memory usage spike during startup?
+Who should we invite to the brainstorming session?
+Which approach leads to better performance?
+When do you think we can wrap up this project?
+Is it worth refactoring the entire codebase?
+Could you confirm the shipping address?
+What is the typical charge time for this device?
+How do I connect to the VPN?
+Can you outline the tasks for this sprint?
+Where can I read about your company's values?
+Why do we need to sign a Non-Disclosure Agreement?
+Who can resolve a conflict in Git?
+Which flavor of Linux do you recommend for servers?
+When can we expect the final design mock-ups?
+Is that the correct usage of the API?
+Could you re-express the problem in simpler terms?
+What is the best free resource to learn data science?
+How can I delete my account permanently?
+Can you forward me the team contact list?
+Where is the new office located?
+Why is the documentation incomplete?
+Who is the main user of this feature?
+Which analytics tool do we use?
+When does the warranty expire?
+Is your system compatible with macOS?
+Could you remind me of our security policy?
+What is the best way to approach debugging?
+How do I rename a Git commit?
+Can you open a support ticket for me?
+Where can I download the required SDK?
+Why is the process taking so long?
+Who should I address in the cover letter?
+Which IDE do most developers here use?
+When do you plan on releasing the patch?
+Is it raining at your location now?
+Could you help me design the user interface?
+What is the best route to get to the station?
+How do I reduce CPU usage?
+Can you demonstrate how to run these tests?
+Where can I see the user feedback logs?
+Why are we tracking these metrics?
+Who can take ownership of the new feature?
+Which environment variable do I need to set?
+When is the next code freeze scheduled?
+Is my data safe with this configuration?
+Could you break down the cost estimates?
+What is the best practice for password storage?
+How do I update my profile information?
+Can you join the video conference in five minutes?
+Where do we store archived documents?
+Why is the code coverage still low?
+Who is going to maintain the legacy codebase?
+Which container platform are we using?
+When are we merging the prototype branch?
+Is there a tutorial for setting up Docker?
+Could you clarify the acceptance criteria?
+What is the memory footprint of this application?
+How do I gather feedback from end users?
+Can you share the official style guide?
+Where is the best place to see the fall colors?
+Why does the system reject my login credentials?
+Who can override these access permissions?
+Which build tool do we rely on?
+When will the user manual be published?
+Is multi-factor authentication required?
+Could you explain how these classes interact?
+What is your favorite book and why?
+How do I troubleshoot network connectivity issues?
+Can you recommend a good podcast for learning history?
+Where is the nearest electric vehicle charging station?
+Why do we dream at night?
+Who was the first scientist to propose the theory of evolution?
+Which tools are best for time management?
+When is the best time to plant a garden?
+Is it possible to travel faster than the speed of light?
+Could you share your thoughts on climate change?
+What is the difference between RAM and ROM?
+How do I protect my personal information online?
+Where can I find tutorials for 3D modeling?
+Why does water expand when it freezes?
+Who is considered the father of modern computing?
+Which mobile app do you use for budgeting?
+When will humans land on Mars?
+Is there life beyond Earth?
+Could you explain the principles of blockchain technology?
+What is the most effective way to learn a new language?
+How do I configure my home Wi-Fi network securely?
+Where can I buy organic produce nearby?
+Why is biodiversity important for ecosystems?
+Who is the most influential artist of the 20th century?
+Which keyboard shortcut saves the most time?
+When do birds typically migrate?
+Is meditation effective for stress relief?
+How do I fix common errors in Python?
+Can you suggest good books on philosophy?
+Why does the moon appear larger near the horizon?
+Where can I find open-source software for photo editing?
+What are the benefits of learning a musical instrument?
+Who invented the first programmable computer?
+Which habits contribute to better mental health?
+When is the best time to observe the Northern Lights?
+Is there a way to reduce energy consumption at home?
+Could you summarize the key points of Einstein's theory of relativity?
+How do I clean and maintain my DSLR camera?
+Where is the best place to stargaze near me?
+Why do humans have different blood types?
+Who is responsible for setting global internet standards?
+Which cloud storage service do you recommend?
+When does the next solar eclipse occur?
+Is there a beginner’s guide for using Linux?
+Can you provide tips for writing a compelling resume?
+What is the simplest way to calculate compound interest?
+How do I start a podcast from scratch?
+Where can I find high-quality free courses online?
+Why do some animals hibernate during winter?
+Who designed the Eiffel Tower?
+Which workout routine is most effective for beginners?
+When is the best time to visit the Grand Canyon?
+Is there an easy way to memorize historical dates?
+Could you explain how cryptocurrencies are mined?
+What is the difference between a comet and an asteroid?
+How do I upgrade the RAM in my laptop?
+Where is the best spot for birdwatching in this area?
+Why do some people have a fear of heights?
+Who wrote the first novel in history?
+Which productivity apps are worth trying?
+When will quantum computers become mainstream?
+Is it possible to recycle electronic waste efficiently?
+Could you walk me through setting up a home theater system?
+What is the origin of the Internet of Things (IoT)?
+How do I bake a perfect loaf of bread?
+Where can I find volunteer opportunities nearby?
+Why does oil float on water?
+Who are the top innovators in renewable energy today?
+Which type of tea is best for relaxation?
+When should I replace my car tires?
+Is yoga better than other forms of exercise?
+Could you explain the differences between renewable and non-renewable energy sources?
+What is the best way to start learning about astronomy?
+How do I troubleshoot my smartphone when it won’t turn on?
+Where can I find reliable news sources?
+Why do we experience seasons on Earth?
+Who developed the theory of general relativity?
+Which graphic design software is best for beginners?
+When did humans first land on the moon?
+Is it worth learning to code in 2025?
+Could you recommend a strategy for improving time management?
+What is the best way to store digital photos securely?
+How do I resolve compatibility issues with software?
+Where can I find local farmer’s markets?
+Why does my phone overheat so quickly?
+Who are the key figures in the history of AI?
+Which books are essential for understanding economics?
+When is the best time to prune fruit trees?
+Is there a way to predict volcanic eruptions?
+Could you describe the steps to create a business plan?
+What is the importance of protecting endangered species?
+How do I improve my public speaking skills?
+Where can I rent a bike in this city?
+Why do stars twinkle in the night sky?
+Who were the inventors of the light bulb?
+Which software is best for video editing?
+When will the next major technological breakthrough happen?
+Is there a shortcut to mastering chess?
+Could you provide a checklist for moving into a new house?
+What is the most fuel-efficient way to drive?
+How do I balance work and personal life effectively?
+Where is the nearest library?
+Why do some countries drive on the left side of the road?
+Who is the current Secretary-General of the United Nations?
+Which browser extensions improve productivity?
+When did the Industrial Revolution begin?
+Is there a good way to prevent procrastination?
+Could you suggest ways to celebrate a small victory?
+Do you want some coffee?
+Do we need more time to finish this?
+Do you believe in second chances?
+Do they know how much we care?
+Do you think we can make a difference?
+Do we want to learn from our mistakes?
+Do you feel like taking a break?
+Do I need to explain it again?
+Do you want to go for a walk?
+Do we have enough food for everyone?
+Do you think this will work?
+Do you want to share your story?
+Do we want to live life to the fullest?
+Do you need help with your homework?
+Do you love listening to music?
+Do they understand the importance of this?
+Do you enjoy traveling to new places?
+Do we all agree on the next steps?
+Do I need to bring anything for the trip?
+Do we want to aim higher in our goals?
+Do you think we should try a new approach?
+Do you know how this makes me feel?
+Do we want to spend more time together?
+Do you want to try something new today?
+Do we all appreciate the little things in life?
+Do I seem like someone you can trust?
+Do you believe everything happens for a reason?
+Do you want to watch a movie later?
+Do we understand the risks involved?
+Do you feel ready to take on this challenge?
+Do I need to be more patient with myself?
+Do you want me to help you carry that?
+Do we have what it takes to succeed?
+Do you think kindness can change the world?
+Do I really need to remind you again?
+Do we need to adjust our plans?
+Do you want to join us for dinner?
+Do they know we’re counting on them?
+Do we want to leave a legacy behind?
+Do you dream about the future often?
+Do I seem confident to you?
+Do we have a reason to celebrate?
+Do you want to explore new hobbies?
+Do we want to make today count?
+Do I need to worry about this?
+Do you believe this will make us stronger?
+Do you think it’s worth the effort?
+Do we want to start fresh tomorrow?
+ou know what time the event is starting, right?
+They mentioned where we could find the venue, didn’t they?
+I wonder if you understand why this decision matters now?
+Could you clarify how this method works in practice?
+You’d agree that we should revise the schedule, wouldn’t you?
+Can you remind me what the deadline for this is?
+Do you think we should wait for their confirmation first?
+Is there a reason why they haven’t responded yet?
+Would you say this solution solves most of the problem?
+You believe we’re ready to launch, don’t you?
+Is it clear how we calculate the final results here?
+Don’t you think the meeting should have started by now?
+Do you know if the report is ready for submission yet?
+Can you tell me why the server was down this morning?
+You think this is the right choice for the team, right?
+Is it possible they misunderstood what we asked them to do?
+Could you explain why the numbers don’t add up as expected?
+Do you believe we need more resources to complete this task?
+Would you agree that delaying the launch is the better option?
+You understand how to operate the new software, don’t you?
+Is there any way we can simplify the current process?
+Do you think we should notify the clients about the delay?
+Can you confirm whether this configuration works with older devices too?
+Would it be helpful to include more examples in the documentation?
+You know what time the event is starting, right?
+They mentioned where we could find the venue, didn’t they?
+I wonder if you understand why this decision matters now?
+Could you clarify how this method works in practice?
+You’d agree that we should revise the schedule, wouldn’t you?
+Can you remind me what the deadline for this is?
+Do you think we should wait for their confirmation first?
+Is there a reason why they haven’t responded yet?
+Would you say this solution solves most of the problem?
+You believe we’re ready to launch, don’t you?
+Is it clear how we calculate the final results here?
+Don’t you think the meeting should have started by now?

@@ -1,0 +1,1 @@
+g++ -std=c++17 compare_bin.cpp -o compare_bin
