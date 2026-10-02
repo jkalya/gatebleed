@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+type: software
+title: "Gatebleed research artifact"
+message: "If you use this artifact, please cite the associated paper in preferred-citation. Also cite the exact archived software version once a release DOI is available."
+repository-code: https://github.com/jkalya/gatebleed
+authors:
+  - family-names: "Kalyanapu"
+    given-names: "Joshua"
+  - family-names: "Dizani"
+    given-names: "Farshad"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI"
+  doi: "10.1145/3725843.3756097"
+  year: 2025
+  collection-title: "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture"
+  authors:
+    - family-names: "Kalyanapu"
+      given-names: "Joshua"
+    - family-names: "Dizani"
+      given-names: "Farshad"
+    - family-names: "Asher"
+      given-names: "Darsh"
+    - family-names: "Ghanbari"
+      given-names: "Azam"
+    - family-names: "Cammarota"
+      given-names: "Rosario"
+    - family-names: "Aysu"
+      given-names: "Aydin"
+    - family-names: "Mirbagher Ajorpaz"
+      given-names: "Samira"
