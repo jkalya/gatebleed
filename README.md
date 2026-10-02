@@ -1,4 +1,6 @@
-# gatebleed artifact
+# GateBleed artifact
+
+[Installation and prerequisites](INSTALL.md) · [Citation](#citation) · [Archiving releases](ARCHIVING.md)
 
 This artifact was tested on a Lenovo SRV-650 V3 with dual-socket Intel Xeon Gold 5420+ (Sapphire Rapids) CPUs, running both on RHEL 9.4 and Ubuntu 22.04. The artifacts are as follows
 
@@ -32,3 +34,26 @@ More specific troubleshooting is provided in the individual artifacts, but here 
 For example, if we ran "server" with `taskset -c 0 ./server` and our server is a dual-socket 56-core setup for a total of 112 cores, run `taskset -c 56 ./busyloop` 
 Sibling hyperthreads can be found by invoking `cat /sys/devices/system/cpu/cpuN/topology/thread_siblings_list`, replacing N in cpuN with the desired core
 - Programs work best when pinned to a core, e.g. `taskset -c 0 PROGRAM`
+
+
+## Citation
+
+Please cite the associated paper when using this artifact:
+
+**GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI** (2025).  
+Paper DOI: https://doi.org/10.1145/3725843.3756097
+
+```bibtex
+@inproceedings{gatebleed2025,
+  author = {Kalyanapu, Joshua and Dizani, Farshad and Asher, Darsh and Ghanbari, Azam and Cammarota, Rosario and Aysu, Aydin and Mirbagher Ajorpaz, Samira},
+  title = {{GateBleed: Exploiting On-Core Accelerator Power Gating for High Performance and Stealthy Attacks on AI}},
+  booktitle = {Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture},
+  year = {2025},
+  doi = {10.1145/3725843.3756097}
+}
+```
+
+Machine-readable citation metadata is in [CITATION.cff](CITATION.cff).
+The paper DOI identifies the publication; it is not a software-release DOI.
+For reproducibility, also record the Git commit and, when available, the archived
+release DOI. See [ARCHIVING.md](ARCHIVING.md) for the release procedure.
